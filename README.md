@@ -45,31 +45,25 @@ Esta aplicación web permite al usuario:
 ## Crea y activa un entorno virtual
 
 bash
-Copiar
-Editar
-py -m venv venv
-venv\Scripts\activate
+- py -m venv venv
+- venv\Scripts\activate
 
 ---
 
 ## Instala las dependencias
 
 bash
-Copiar
-Editar
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ---
 
 ## Ejecuta el servidor
 
 bash
-Copiar
-Editar
-python manage.py runserver
+- python manage.py runserver
 
 ---
 
 ## Abre en tu navegador
-http://127.0.0.1:8000
+- http://127.0.0.1:8000
 
