@@ -39,3 +39,37 @@ Esta aplicación web permite al usuario:
    ```bash
    git clone https://github.com/Kabtzon/Calc_Web_Django.git
    cd Calc_Web_Django
+
+---
+
+## Crea y activa un entorno virtual
+
+bash
+Copiar
+Editar
+py -m venv venv
+venv\Scripts\activate
+
+---
+
+## Instala las dependencias
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+
+---
+
+## Ejecuta el servidor
+
+bash
+Copiar
+Editar
+python manage.py runserver
+
+---
+
+## Abre en tu navegador
+http://127.0.0.1:8000
+
